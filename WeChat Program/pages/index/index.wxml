@@ -1,0 +1,22 @@
+<image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Ffile.elecfans.com%2Fweb1%2FM00%2FC9%2FC5%2Fo4YBAF-FeGaASA4mAADwOUYKavM065.jpg&refer=http%3A%2F%2Ffile.elecfans.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1658630660&t=a68f543b1b3edd6de6de1caa1aae28b7"></image>
+
+  <form bindsubmit="formsubmit" bindreset="formrest">  <!--提交信息-->
+    <view class="top: -40rpx">
+        <text >药品</text>
+        <input name = "name" class="input1"/>          <!--输入药品名称-->
+    </view>
+    <view class="top: -40rpx">
+        <text >数量</text>
+        <input name = "number" class="input1"/>        <!--输入药品数量-->
+    </view>
+    <view class="top: -40rpx">
+        <text >时间</text>
+        <input name = "time" class="input1" />         <!--输入服药时间-->
+    </view>
+    <view >
+        <button style="margin: 30rpx" type="warn"
+         formType="submit"class="button1">提交</button><!--提交按钮-->
+        <button style="margin: 30rpx" type="primary" formType="reset"class="button2">重置</button>  <!--重置按钮-->
+    </view>
+  </form>
+
